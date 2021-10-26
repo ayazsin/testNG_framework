@@ -1,0 +1,12 @@
+Oct 16, 2021
+---------DAY12------
+*****What do you remember form the last class?
+-pages folder     : pages folder is for creating page objects
+-tests folder     : tests folder is for creating tests cases
+-utilities folder : reusable support classes such as Driver, ConfigReader, ExelUtils, ReusableMethods,JSExecutor...
+
+-NOTE: Target is being created by compiler automatical when we run tests. lt. it has compiled classes. It will have test reports.
+
+-configuration.properties file : config file is used for storing major test data,-url,environment,browser,...
+
+-pom.xml                       : for managing the maven project. -dependencies, properties, plugins, profiles,...

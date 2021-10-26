@@ -1,0 +1,23 @@
+*****What Do Remember From the last class?
+-TestNG      : Testing Framework. It is advanced version of JUnit
+-Annotations : Multiple Before and After Annotations
+                -@BeforeSuite @AfterSuite
+                -@BeforeTest @AfterTest
+                -@BeforeGroups @AfterGroups
+                -@BeforeClass @AfterClass
+                -@BeforeMethod @AfterMethod
+-@Test  : Mark a method as a Test Case. It creates test cases and let us run the cases.
+-@Ignore: Skips a test case
+
+***Assertions :
+*Hard Assertion : Stops the test execution if the Assertion line fails
+*Soft Assertion : Continues to the test execution even if the Assertion line fails.
+To use soft assertion we have to create softAssert object.
+- SoftAssert sa = new SoftAssert();
+sa.assertTrue()....or other assertions you can use
+-sa.assertAll() must e used at to mark the assertion as passed or failed
+If i don't use this, then the report will always shows as PASS.
+
+*****DAY 11*****
+Oct 12, 2021
+-------------
